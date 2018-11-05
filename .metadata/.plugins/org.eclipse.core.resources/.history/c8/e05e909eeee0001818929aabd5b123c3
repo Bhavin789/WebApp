@@ -13,12 +13,6 @@ public class Customer{
 	public int getAge() {
 		return age;
 	}
-	public Customer(String name, int age, int custID) {
-		super();
-		this.name = name;
-		this.age = age;
-		this.custID = custID;
-	}
 	public void setAge(int age) {
 		this.age = age;
 	}

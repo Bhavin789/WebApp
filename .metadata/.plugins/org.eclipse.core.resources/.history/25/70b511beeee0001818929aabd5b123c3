@@ -54,8 +54,8 @@ public class JdbcCustomerDAO implements CustomerDAO{
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
 				customer = new Customer(
-					rs.getString("NAME"),
-					rs.getInt("CUST_ID"), 
+					rs.getInt("CUST_ID"),
+					rs.getString("NAME"), 
 					rs.getInt("Age")
 				);
 			}
@@ -72,5 +72,8 @@ public class JdbcCustomerDAO implements CustomerDAO{
 				} catch (SQLException e) {}
 			}
 		}
+		
+		
+		return 
 	}
 }

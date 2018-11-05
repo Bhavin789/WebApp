@@ -42,35 +42,6 @@ public class JdbcCustomerDAO implements CustomerDAO{
 	}
 	
 	public Customer findByCutomerID(int id){
-		
-		String sql = "SELECT * FROM customer WHERE CUST_ID = ?";
-		Connection conn = null;
-		
-		try{
-			conn = dataSource.getConnection();
-			PreparedStatement ps = conn.prepareStatement(sql);
-			ps.setInt(1, id);
-			Customer customer = null;
-			ResultSet rs = ps.executeQuery();
-			if (rs.next()) {
-				customer = new Customer(
-					rs.getString("NAME"),
-					rs.getInt("CUST_ID"), 
-					rs.getInt("Age")
-				);
-			}
-			rs.close();
-			ps.close();
-			return customer;
-			
-		}catch (SQLException e){
-			throw new RuntimeException(e);
-		}finally{
-			if (conn != null) {
-				try {
-					conn.close();
-				} catch (SQLException e) {}
-			}
-		}
+		return 
 	}
 }

@@ -1,0 +1,8 @@
+package com.bhavin.core.customer.dao;
+
+import com.bhavin.core.customer.model.Cutomer;
+
+public interface CustomerDAO{
+	public void insert(Customer customer);
+	
+}

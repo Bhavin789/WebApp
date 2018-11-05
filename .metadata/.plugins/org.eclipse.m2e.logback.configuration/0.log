@@ -195,3 +195,7 @@
 2018-11-05 16:51:06,781 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/main/resources
 2018-11-05 16:51:06,782 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-11-05 16:51:06,783 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/test/resources
+2018-11-05 16:54:29,111 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 16:54:29,111 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/main/resources
+2018-11-05 16:54:29,113 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 16:54:29,113 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/test/resources

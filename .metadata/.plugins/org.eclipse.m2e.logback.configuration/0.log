@@ -101,3 +101,33 @@
 2018-10-27 18:25:14,370 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2018-10-27 18:25:19,806 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/bhavin/Desktop/WebApp/Spring3Example
 2018-10-27 18:25:19,806 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B Test
+2018-11-05 14:49:28,712 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-05 14:49:30,274 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-11-05 14:49:31,558 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-05 14:49:31,559 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/Spring3Example/src/test/resources
+2018-11-05 14:52:27,932 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-11-05 14:52:29,189 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-11-05 14:52:29,524 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-11-05 14:52:30,321 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-11-05 14:53:30,481 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/bhavin/Desktop/WebApp/JDBCExample/pom.xml
+2018-11-05 14:54:07,497 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bhavin.core:JDBCExample:0.0.1-SNAPSHOT @ /Users/bhavin/Desktop/WebApp/JDBCExample/pom.xml.
+2018-11-05 14:54:18,379 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JDBCExample/src/main/java
+2018-11-05 14:54:18,682 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JDBCExample/src/test/java
+2018-11-05 14:54:24,598 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 54 sec
+2018-11-05 14:54:44,759 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 14:54:44,943 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/main/resources
+2018-11-05 14:54:44,945 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 14:54:44,945 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/test/resources
+2018-11-05 16:34:18,373 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bhavin.core:JDBCExample:0.0.1-SNAPSHOT @ /Users/bhavin/Desktop/WebApp/JDBCExample/pom.xml.
+2018-11-05 16:34:20,271 [Worker-44] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring/2.5.6/spring-2.5.6.pom
+2018-11-05 16:34:21,801 [Worker-44] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring/2.5.6/spring-2.5.6.pom
+2018-11-05 16:34:25,292 [Worker-44] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring/2.5.6/spring-2.5.6.jar
+2018-11-05 16:34:43,133 [Worker-44] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring/2.5.6/spring-2.5.6.jar
+2018-11-05 16:34:52,820 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 16:34:53,036 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/main/resources
+2018-11-05 16:34:53,262 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 16:34:53,262 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/test/resources
+2018-11-05 16:35:08,795 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 16:35:08,894 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/main/resources
+2018-11-05 16:35:08,897 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-05 16:35:08,898 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bhavin/Desktop/WebApp/JDBCExample/src/test/resources
